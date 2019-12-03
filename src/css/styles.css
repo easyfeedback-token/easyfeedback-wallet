@@ -1,0 +1,423 @@
+/* General */
+h1{
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  color: gray;
+}
+
+h2, h3{
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+}
+
+body {font-family: 'Catamaran', sans-serif;}
+
+/* Navbar */
+.navbar{
+  padding: 30px;
+}
+.nav .dropdown{
+  cursor: pointer;
+  position: absolute;
+  left: 88%;
+  top: 30%;
+}
+
+.navb-alt{
+  background: #343a40;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo-img{
+  height: 40px;
+}
+
+.dropdown-menu{
+  cursor: pointer;
+  position: absolute !important;
+  left: -8em;
+  top: 3em;
+}
+
+/* Wallet */
+.amount{
+  text-align: center;
+  color: white;
+  background-color: #598838;
+  padding: 10px;
+}
+
+.amount p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.wallet-type{
+    vertical-align: middle;
+    float: none;
+    font-size: 15px;
+}
+
+.wallet-type .col{
+  padding-top: 15px;
+}
+
+.wallet-info-title{
+  padding: 5px;
+  background-color: rgb(80, 126, 46);
+}
+
+.coin-switch {
+  color: white;
+}
+.coin-switch:hover{
+  color: white;
+  background-color: rgb(80, 126, 46);
+}
+
+.coin-active, .coin-active:hover{
+  color: black;
+  background-color: white;
+}
+
+.wallet-info{
+  display: inline-block;
+}
+.wallet-amount{
+  font-size: 50px;
+}
+.wallet-currency{
+  font-size: 25px;
+}
+
+/* Style the tab */
+.tab {
+  width: 100%;
+  overflow: hidden;
+  background-color: #598838;
+  margin: 0;
+  padding: 0px;
+}
+
+.tab p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  width: 33.33%;
+  text-align: center;
+  /*color: #75B946;*/
+  color: white;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #6ba157;
+}
+
+/* Create an active/current tablink class */
+.tab button:active {
+  color: white;
+  background-color: #82C559;
+}
+
+/* Style the tab content */
+.tabcontent {
+  align-content: center;
+
+  padding: 30px 30px;
+}
+
+.tab-icon{
+  height: 40px ;
+}
+
+.action-btn{
+  border: none;
+  background-color: #598838;
+  color: white;
+  font-size: 20px;
+}
+
+.action-btn:hover,
+.action-btn:focus{
+  border: none;
+  background-color: #86BB4A;
+  color: white;
+}
+
+.recieve-section{
+  padding: 30px;
+  background-color: #F3F3F3;
+
+}
+.recieve-section img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}*/
+
+.tab-list-active {
+  background-color: #6ba157 !important;
+}
+
+.modal-container {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.modal-content {
+  width: 80%;
+  height: 90%;
+  border: 1px solid #d8dce3;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fdfdfe;
+}
+.d-flex div{
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ /* 
+  First-Page
+ */
+
+ .accept-check{
+  padding-left: 10px;  
+ }
+ .accept-check label{
+  padding-left: 10px;  
+ }
+
+.create-import{
+  text-align: center;
+  color: black;
+  padding: 40px;
+}
+
+.create-import .btn{
+  position: relative; 
+}
+
+.create-import p{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.create-import .box-container{
+  padding: 10px;
+}
+
+.create-wallet{
+  padding: 30px;
+}
+
+.create-wallet .mnemonic-info{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.create-mnemonic-container{
+  margin: 5%;
+  border: 2px solid black;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.create-mnemonic-container .mnemonic-word {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 25px;
+}
+
+.verify-mnemonic{
+  padding: 30px;
+}
+
+.mnemonic-words{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mnemonic-words > div {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.verify-mnemonic .words-buttons{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.words-buttons > div{
+  margin: 5px;
+}
+
+.import-container{
+  padding-top: 30px;
+}
+
+.alert-msg{
+  margin: 10px;
+  color: #BF0000;
+}
+
+.success-msg{
+  margin: 10px;
+  color: #598838;
+}
+
+.errormsg{
+  color:#BF0000;
+  text-align: center;
+}
+
+.passive-btn{
+  margin-right: 20px;
+  border-color: gray;
+  color: gray;
+}
+
+
+
+.danger-btn{
+  margin-left: 20px;
+  background-color: #BF0000;
+  color: white;
+}
+
+.danger-btn:hover{
+  background-color: red;
+  color: white;
+}
+
+.delete-message{
+  padding: 10px;
+  align-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-group{
+  margin: 10px;
+}
+.form-control{
+  background-color: #F3F3F3;
+}
+
+.qr-code{
+  max-width:100%;
+max-height:100%;
+}
+
+.send-modal{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 590px){
+  .logo-img{
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  /*Navbar*/
+  .navbar img{
+    height: 25px;
+  }
+  /*Create*/
+  .create-mnemonic-container .mnemonic-word {
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  /*Verify Mnemonic*/
+  .mnemonic-words > div {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .wallet-amount{
+    font-size: 40px;
+  }
+
+  .verify-mnemonic .words-buttons{
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+}
